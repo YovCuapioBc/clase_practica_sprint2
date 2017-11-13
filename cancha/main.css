@@ -1,0 +1,94 @@
+
+.fondo_cancha {
+    position:relative;
+    width:800px;
+    height:400px;
+    background: #99B6A4;
+    left:280px;
+    top:50px;
+}
+.contorno_cancha_1 {
+    position: absolute; 
+	top: 70px;
+	right: 290px;
+	bottom: 215px;
+	left: 300px; 
+	background: white;
+}
+.contorno_cancha_2 {   
+    position: absolute; 
+	top: 75px;
+	right: 297px; 
+	bottom: 221px; 
+	left: 305px; 
+	background: #99B6A4;
+}
+.porteria_derab {
+    position: absolute;
+    top: 170px;
+    right: 297px;
+    bottom: 310px;
+    left: 970px;
+    background: white;
+}
+.porteria_derar {
+    position: absolute;
+    top: 175px;
+    right: 298px;
+    bottom: 316px;
+    left: 975px;
+    background: #99B6A4;
+}
+.porteria_izqab {
+    position: absolute;
+    top: 170px;
+    right: 965px;
+    bottom: 310px;
+    left: 300px;
+    background: white;
+    
+}
+.porteria_izqar {
+    position: absolute;
+    top: 175px;
+    right: 970px;
+    bottom: 316px;
+    left: 305px;
+    background: #99B6A4;
+}
+.centro_cancha {
+    position: absolute;
+    top: 174px;
+    right: 600px;
+    bottom: 316px;
+    left: 600px;
+    background: #99B6A4;
+    border-color: white;
+    border-width: 4px;
+    border-style: solid;
+    border-radius: 60%;
+}
+
+.balon_der,
+.balon_centro,
+.balon_izq {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: white;
+}
+.balon_der {
+    top: 325px;
+    right: 400px;
+}
+.balon_centro {
+    top: 130px;
+    right: 650px;
+}
+.balon_izq {
+    top: 175px;
+    left: 375px;
+}
+
+
